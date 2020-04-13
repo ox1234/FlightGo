@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3027529-e88d-4e85-b635-47584a15f5ed" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.2_1/libexec" />
+  <component name="ProjectId" id="1aU4GHxidK78tkwQCdUdkFIZxSW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build pentestplatform/test (1)">
+    <configuration name="go build pentestplatform/test (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="pentestplatform" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/pluginTest.go" />
+      <package value="pentestplatform/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pentestplatform/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="pentestplatform" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/vtTest.go" />
+      <package value="pentestplatform/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build pentestplatform/test (1)" />
+        <item itemvalue="Go Build.go build pentestplatform/test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2241" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586783720105">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2241" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586783720105" />
+    <state x="2112" y="237" key="#go_build_pentestplatform/test" timestamp="1586776768414">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2112" y="237" key="#go_build_pentestplatform/test/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586776768414" />
+    <state x="2112" y="237" key="#go_build_pentestplatform/test_(1)" timestamp="1586783847896">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2112" y="237" key="#go_build_pentestplatform/test_(1)/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586783847896" />
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1586786889507">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786889507" />
+    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1586786889504">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786889504" />
+    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1586786889503">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786889503" />
+    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1586786889506">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786889506" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1586786521089">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786521089" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1586786521081">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786521081" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1586786521080">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786521080" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1586786521087">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1586786521087" />
+  </component>
+</project>
