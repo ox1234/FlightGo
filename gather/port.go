@@ -1,168 +1,169 @@
 package gather
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/Ullaakut/nmap"
+	"github.com/dean2021/go-masscan"
 	"github.com/gosuri/uilive"
-	"net"
 	"pentestplatform/logger"
-	"pentestplatform/util"
 	"strconv"
 	"strings"
 	"time"
 )
 
-type portScanner struct {
-	ipDescs []ipDesc
-	ipConcurrency int
-	portList []string
-	portConcurrency int
+type masScanner struct {
+	concurrency int
+	ip2scan []string
+	IpMap map[string][]Port
 }
 
-type ipDesc struct {
-	ip string
-	ports []portDesc
+
+type Port struct {
+	Port string
+	Service string
+	State string
 }
 
-type portDesc struct {
-	port int
-	service string
-}
-
-func NewPortScanner() *portScanner{
-	return &portScanner{
-		ipConcurrency:   10,
-		portList:        util.ReadFile("dict/Top100ports.txt"),
-		portConcurrency: 10,
+func NewPortScanner() *masScanner{
+	return &masScanner{
+		concurrency: 5,
+		IpMap: make(map[string][]Port),
 	}
 }
 
-func (p *portScanner) Set(v ...interface{}){
-	ips := v[0].([]string)
-	for _, ip := range ips{
-		if !p.hasScanned(ip){
-			ipDesc := ipDesc{
-				ip:    ip,
-			}
-			p.ipDescs = append(p.ipDescs, ipDesc)
-		}
-	}
+func (m *masScanner) Set(v ...interface{}){
+	m.ip2scan = append(m.ip2scan, v[0].(string))
 }
 
-func (p *portScanner) hasScanned(ip string) bool{
-	for _, ipdesc := range p.ipDescs{
-		if ipdesc.ip == ip{
-			return true
-		}
-	}
-	return false
-}
-
-func (p *portScanner) DoGather(){
+func (m *masScanner) DoGather(){
 	writer := uilive.New()
 	writer.Start()
-	ipTracker := make(chan bool)
-	ips := make(chan *ipDesc)
-
-	for i:=0; i<p.ipConcurrency; i++{
-		go p.ipWorker(ipTracker, ips)
+	tracker := make(chan bool)
+	ips := make(chan string)
+	for i:=0; i<m.concurrency; i++{
+		go m.worker(tracker, ips)
 	}
-	for i:=0; i<len(p.ipDescs); i++{
-		fmt.Fprintf(writer, "端口扫描进度：%d/%d\n", i, len(p.ipDescs))
+
+	for i, ip := range m.ip2scan{
+		fmt.Fprintf(writer, "端口扫描进度：%d/%d\n", i, len(m.ip2scan))
 		time.Sleep(time.Millisecond * 5)
-		ips <- &p.ipDescs[i]
+		ips <- ip
 	}
 
 	close(ips)
 	writer.Stop()
-	for i:=0; i<p.ipConcurrency; i++{
-		<- ipTracker
+	for i:=0; i<m.concurrency; i++{
+		<- tracker
 	}
 	logger.Green.Println("port scan complete")
 }
 
-func (p *portScanner) Report() (string, error){
-	type portDesc struct {
-		Port int
-		Service string
-	}
-	type ipDesc struct {
-		Ip string
-		Ports []portDesc
-	}
-	var result []ipDesc
-	for _, ipdesc := range p.ipDescs{
-		ip := ipdesc.ip
-		var portarr []portDesc
-		for _, portdesc := range ipdesc.ports{
-			service := portdesc.service
-			port := portdesc.port
-			portarr = append(portarr, portDesc{
-				Port:    port,
-				Service: service,
-			})
-		}
-		result = append(result, ipDesc{
-			Ip:    ip,
-			Ports: portarr,
-		})
-	}
-	jsondata, err := json.Marshal(result)
+func (m *masScanner) Report()(string, error){
+	jsondata, err := json.Marshal(m.IpMap)
 	if err != nil{
-		logger.Red.Fatal(err)
 		return "", err
 	}
 	return string(jsondata), nil
 }
 
-func (p *portScanner) ipWorker(ipTrack chan bool, ips chan *ipDesc){
+func (m *masScanner) worker(tracker chan bool, ips chan string){
 	for ip := range ips{
-		p.scanPort(ip)
+		m.doScan(ip)
 	}
-
 	var empty bool
-	ipTrack <- empty
+	tracker <- empty
 }
 
-func (p *portScanner) scanPort(ipdesc *ipDesc){
-	ports := make(chan string, p.portConcurrency)
-	portTracker := make(chan bool)
-	for i:=0; i<p.portConcurrency; i++{
-		go ipdesc.portWorker(portTracker, ports)
+func (m *masScanner) doScan(ip string){
+	openPorts := m.doMasScan(ip)
+	m.doNmapScan(ip, openPorts)
+}
+
+func (m *masScanner) doNmapScan(ip string, openPorts []string){
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
+	defer cancel()
+
+	var nmapScanner *nmap.Scanner
+	if len(openPorts) > 0{
+		logger.Blue.Println("do nmap and masscan")
+		scanner, err := nmap.NewScanner(
+			nmap.WithTargets(ip),
+			nmap.WithPorts(strings.Join(openPorts,",")),
+			nmap.WithContext(ctx),
+			nmap.WithSkipHostDiscovery(),
+			nmap.WithConnectScan(),
+			nmap.WithServiceInfo(),
+		)
+		if err != nil{
+			logger.Red.Println("fail to create nmap scanner ", err)
+			return
+		}
+		nmapScanner = scanner
+	}else{
+		logger.Blue.Println("do normal nmap scan")
+		scanner, err := nmap.NewScanner(
+			nmap.WithTargets(ip),
+			nmap.WithContext(ctx),
+			nmap.WithSkipHostDiscovery(),
+			nmap.WithConnectScan(),
+			nmap.WithServiceInfo(),
+		)
+		if err != nil{
+			logger.Red.Println("fail to create nmap scanner ", err)
+			return
+		}
+		nmapScanner = scanner
+	}
+	result, warnings, err := nmapScanner.Run()
+	if err != nil {
+		logger.Red.Println("unable to run nmap scan: %v", err)
+		return
 	}
 
-	for _, port := range p.portList{
-		ports <- port
+	if warnings != nil {
+		logger.Blue.Printf("Warnings: \n %v\n", warnings)
 	}
 
-	close(ports)
-	for i:=0; i<p.portConcurrency; i++{
-		<- portTracker
+	for _, host := range result.Hosts{
+		if len(host.Ports) == 0 || len(host.Addresses) == 0{
+			fmt.Println(ip, " port is not open")
+			continue
+		}
+		for _, port := range host.Ports{
+			m.IpMap[ip] = append(m.IpMap[ip], Port{
+				Port:    strconv.Itoa(int(port.ID)),
+				Service: port.Service.Name,
+				State:   port.State.State,
+			})
+		}
 	}
 }
 
-func (i *ipDesc) portWorker(portTracker chan bool, ports chan string){
-	for port := range ports{
-		portarr := strings.Split(port, " ")
-		intPort, _ := strconv.Atoi(portarr[0])
-		i.checkAlive(intPort, portarr[1])
+func (m *masScanner) doMasScan(ip string)[]string{
+	mass := masscan.New()
+	mass.SetSystemPath("/usr/local/bin/masscan")
+	mass.SetPorts("0-65535")
+	mass.SetRanges(ip)
+	mass.SetRate("1000")
+	err := mass.Run()
+	if err != nil{
+		logger.Red.Println("scan failed ", err)
+		return []string{}
 	}
-
-	var empty bool
-	portTracker <- empty
-}
-
-
-func (i *ipDesc) checkAlive(port int, desc string){
-	addr := fmt.Sprintf("%s:%d", i.ip, port)
-	_, err := net.DialTimeout("tcp", addr, 3 * time.Second)
-	if err == nil{
-		i.ports = append(i.ports, portDesc{
-			port:    port,
-			service: desc,
-		})
+	var openPorts []string
+	results, err := mass.Parse()
+	if err != nil{
+		logger.Red.Println("parse failed ", err)
+		return []string{}
 	}
+	for _, host := range results{
+		if len(host.Ports) > 0{
+			for _, port := range host.Ports{
+				openPorts = append(openPorts, port.Portid)
+			}
+		}
+	}
+	return openPorts
 }
-
-
-

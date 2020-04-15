@@ -1,7 +1,6 @@
 package controller
 
 import (
-	"encoding/json"
 	"github.com/gin-gonic/gin"
 	"log"
 	"pentestplatform/gather"
@@ -16,6 +15,9 @@ var portScanner = gather.NewPortScanner()
 var dirScanner = gather.NewDirScanner()
 var basicScanner = gather.NewBasicScanner()
 var vtScanner = gather.NewVtScanner()
+
+
+var allDomain = make(map[string]string)
 
 func SubDomain(context *gin.Context){
 	jsondata, err := subDomainScanner.Report()
@@ -54,50 +56,65 @@ func DirScan(context *gin.Context){
 }
 
 func BasicScan(context *gin.Context){
-	resultjson, err := json.Marshal(siteInfo)
+	jsondata, err := basicScanner.Report()
 	if err != nil{
 		log.Fatal(err)
 	}
-	context.String(200, string(resultjson))
+	context.String(200, jsondata)
 }
+
+
 
 func Start(context *gin.Context){
 	wg := sync.WaitGroup{}
 	wg.Add(1)
 	domain := strings.TrimSpace(context.PostForm("domain"))
 	go func() {
-		subDomainScanner.Set(domain)
-		subDomainScanner.DoGather()
-		wg.Done()
-	}()
-	wg.Wait()
+		go func() {
+			subDomainScanner.Set(domain)
+			subDomainScanner.DoGather()
+			wg.Done()
+		}()
 
-	go func(){
-		vtScanner.Set(domain)
-		vtScanner.DoGather()
-	}()
-
-	go func() {
-		var iplist []string
-		for _, subdomain := range subDomainScanner.SubDomains{
-			iplist = append(iplist, subdomain.IPAddress)
-		}
-		portScanner.Set(iplist)
-		portScanner.DoGather()
-	}()
-
-	go func() {
-		for _, subDomain := range subDomainScanner.SubDomains{
-			hostname := subDomain.HostName
-			ip := subDomain.IPAddress
-			basicScanner.Set(hostname, ip)
-			basicScanner.DoGather()
-			json, err := basicScanner.Report()
-			if err != nil{
-				log.Fatal(err)
+		wg.Add(1)
+		go func(){
+			vtScanner.Set(domain)
+			vtScanner.DoGather()
+			wg.Done()
+		}()
+		wg.Wait()
+		collectDomain()
+		go func() {
+			iplist := make(map[string]bool)
+			for _, ipaddress := range allDomain{
+				if ipaddress != ""{
+					iplist[ipaddress] = true
+				}
 			}
-			siteInfo = append(siteInfo, json)
-		}
+
+			for ip := range iplist{
+				portScanner.Set(ip)
+			}
+			portScanner.DoGather()
+		}()
+
+		go func() {
+			for subdomain, ipaddress := range allDomain{
+				hostname := subdomain
+				ip := ipaddress
+				basicScanner.Set(hostname, ip)
+			}
+			basicScanner.DoGather()
+		}()
 	}()
 	context.String(200, "start scan, please wait")
+}
+
+func collectDomain(){
+	for _, sub := range vtScanner.VtDomainSet{
+		allDomain[sub.HostName] = sub.IPAddress
+	}
+	for _, sub := range subDomainScanner.SubDomains{
+		allDomain[sub.HostName] = sub.IPAddress
+	}
 }

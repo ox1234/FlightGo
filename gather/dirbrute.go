@@ -9,7 +9,7 @@ import (
 	"pentestplatform/util"
 )
 
-type dirTarget struct {
+type dirScanner struct {
 	target string
 	wordlist []string
 	dirs []dirDesc
@@ -22,13 +22,13 @@ type dirDesc struct {
 	ContentLength int
 }
 
-func NewDirScanner() *dirTarget{
-	return &dirTarget{
+func NewDirScanner() *dirScanner {
+	return &dirScanner{
 		concurrency: 100,
 	}
 }
 
-func (d *dirTarget) Set(v ...interface{}){
+func (d *dirScanner) Set(v ...interface{}){
 	target := v[0].(string)
 	dirType := v[1].(string)
 	dictName := fmt.Sprintf("dict/dir-%s.txt", dirType)
@@ -36,7 +36,7 @@ func (d *dirTarget) Set(v ...interface{}){
 	d.target = target
 }
 
-func (d *dirTarget) Report() (string, error){
+func (d *dirScanner) Report() (string, error){
 	dirTarget := struct {
 		Target string
 		Dirs   []dirDesc
@@ -53,7 +53,7 @@ func (d *dirTarget) Report() (string, error){
 
 }
 
-func (d *dirTarget) DoGather(){
+func (d *dirScanner) DoGather(){
 	tracker := make(chan bool)
 	dirnames := make(chan string)
 	for i:=0; i<d.concurrency; i++{
@@ -71,7 +71,7 @@ func (d *dirTarget) DoGather(){
 	logger.Green.Println("dirbrute complete")
 }
 
-func (d *dirTarget) worker(tracker chan bool, dirnames chan string){
+func (d *dirScanner) worker(tracker chan bool, dirnames chan string){
 	for dirname := range dirnames{
 		d.fetch(dirname)
 	}
@@ -80,7 +80,7 @@ func (d *dirTarget) worker(tracker chan bool, dirnames chan string){
 	tracker <- empty
 }
 
-func (d *dirTarget) fetch(dirname string){
+func (d *dirScanner) fetch(dirname string){
 	if d.checkAlive(){
 		url := fmt.Sprintf("http://%s%s", d.target, dirname)
 		fmt.Println(url)
@@ -103,7 +103,7 @@ func (d *dirTarget) fetch(dirname string){
 	}
 }
 
-func (d *dirTarget) checkAlive() bool{
+func (d *dirScanner) checkAlive() bool{
 	_, err := http.Get(fmt.Sprintf("http://%s/", d.target))
 	if err != nil{
 		logger.Red.Fatalf("%s is not alive ", d.target)
