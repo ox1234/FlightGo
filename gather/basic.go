@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"pentestplatform/logger"
+	"regexp"
 	"strings"
 	"time"
 )
@@ -15,6 +16,7 @@ type basicInfo struct {
 	HostName string
 	Ip string
 	WebServer string
+	Title string
 	ClickJackingProtection bool
 	ContentSecurityPolicy bool
 	XContentTypeOptions bool
@@ -82,6 +84,14 @@ func (b *basicScanner) doGet(basicInfo *basicInfo){
 		return
 	}
 	body, _ := ioutil.ReadAll(resp.Body)
+	r, _ := regexp.Compile(`<title>(\s*.*\s*)</title>`)
+	results := r.FindStringSubmatch(string(body))
+	if len(results) == 2{
+		basicInfo.Title = strings.TrimSpace(results[1])
+	}else{
+		basicInfo.Title = ""
+	}
+
 	defer resp.Body.Close()
 	if len(resp.Header["X-Frame-Options"]) > 0 {
 		basicInfo.ClickJackingProtection = true

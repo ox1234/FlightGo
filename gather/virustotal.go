@@ -55,6 +55,7 @@ func (v *vtScanner) Report() (string, error){
 	jsondata, err := json.Marshal(v)
 	if err != nil{
 		logger.Red.Println(err)
+		return "", err
 	}
 	return string(jsondata), nil
 }

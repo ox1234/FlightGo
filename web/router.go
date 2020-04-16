@@ -15,5 +15,7 @@ func SetRouter(engine *gin.Engine){
 		gather.GET("/basic", controller.BasicScan)
 		gather.POST("/start", controller.Start)
 		gather.GET("/vt", controller.VtDomain)
+		gather.GET("/rapiddns", controller.RapidDnsDomain)
+		gather.GET("/alldomain", controller.AllDomain)
 	}
 }
