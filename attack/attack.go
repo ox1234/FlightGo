@@ -14,16 +14,41 @@ type Attacker interface {
 	arg1: 攻击的目标
 	argn: 额外的参数，根据需要添加
 	 */
-	Exploit(v ...interface{})(string, error)
-	Describe()string
+	Exploit()(string, bool)
+	GetDesc()string
+	GetTitle()string
+	GetVulnType()string
+	GetOptions()string
+	SetOptions(optionJson string)
+	IsVulnerable(v ...interface{})bool
+}
+
+type AttackPlugin struct {
+	Title    string
+	Attacker Attacker `json:"-"`
+	Desc     string
+	VulnType string
+	Options  string
+}
+
+type AttackExploiter struct {
+	PluginMap map[string]AttackPlugin
+	PluginNum int
 }
 
 const pluginDir string = "plugin/"
 
-var pluginMap map[string]Attacker
+var pluginMap map[string]AttackPlugin
+
+func NewAttackExploiter() *AttackExploiter{
+	return &AttackExploiter{
+		PluginMap: pluginMap,
+		PluginNum: len(pluginMap),
+	}
+}
 
 func LoadPlugin(){
-	pluginMap = make(map[string]Attacker)
+	pluginMap = make(map[string]AttackPlugin)
 	files, _ := ioutil.ReadDir(pluginDir)
 	for _, file := range files{
 		if strings.HasSuffix(file.Name(), ".so"){
@@ -31,7 +56,13 @@ func LoadPlugin(){
 			pluginName := strings.Split(soFile, ".")[0]
 			fattacker, err := findPlugin(soFile)
 			if err == nil{
-				pluginMap[pluginName] = fattacker
+				pluginMap[pluginName] = AttackPlugin{
+					Title:    fattacker.GetTitle(),
+					Attacker: fattacker,
+					Desc:     fattacker.GetDesc(),
+					VulnType: fattacker.GetVulnType(),
+					Options:  fattacker.GetOptions(),
+				}
 			}
 		}
 	}
@@ -41,20 +72,16 @@ func LoadPlugin(){
 }
 
 func GetAttacker(module string)(Attacker, error){
-	attacker, ok := pluginMap[module]
+	attackerPlugin, ok := pluginMap[module]
 	if !ok{
 		logger.Red.Printf("%s is not loaded or has error", module)
 		return nil, errors.New("module is not loaded or has error")
 	}
-	return attacker, nil
+	return attackerPlugin.Attacker, nil
 }
 
 func ShowPlugin()string{
-	var pluginNameArr []string
-	for k, _ := range pluginMap{
-		pluginNameArr = append(pluginNameArr, k)
-	}
-	pluginJson, err := json.Marshal(pluginNameArr)
+	pluginJson, err := json.Marshal(pluginMap)
 	if err != nil{
 		logger.Red.Println(err)
 	}

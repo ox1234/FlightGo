@@ -2,15 +2,21 @@ package controller
 
 import (
 	"encoding/json"
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"io/ioutil"
 	"log"
+	"os"
 	"pentestplatform/gather"
 	"pentestplatform/logger"
+	"regexp"
 	"strings"
 	"sync"
 )
 
 var siteInfo []string
+var allDomain = make(map[string]string)
+var allDir = make(map[string]string)
 
 var subDomainScanner = gather.NewSubDomainScanner()
 var portScanner = gather.NewPortScanner()
@@ -20,7 +26,6 @@ var vtScanner = gather.NewVtScanner()
 var rapidDnsScanner = gather.NewRapidDnsScanner()
 
 
-var allDomain = make(map[string]string)
 
 func SubDomain(context *gin.Context){
 	jsondata, err := subDomainScanner.Report()
@@ -67,15 +72,23 @@ func PortScan(context *gin.Context){
 }
 
 func DirScan(context *gin.Context){
-	domain := strings.TrimSpace(context.PostForm("domain"))
-	dirType := strings.TrimSpace(context.PostForm("type"))
-	dirScanner.Set(domain, dirType)
-	dirScanner.DoGather()
-	json, err := dirScanner.Report()
-	if err != nil{
-		log.Fatal(err)
+	if context.Request.Method == "GET"{
+		dirJson, _ := json.Marshal(allDir)
+		context.String(200, string(dirJson))
+	}else if context.Request.Method == "POST"{
+		go func() {
+			domain := strings.TrimSpace(context.PostForm("domain"))
+			dirType := strings.TrimSpace(context.PostForm("type"))
+			dirScanner.Set(domain, dirType)
+			dirScanner.DoGather()
+			jsondata, err := dirScanner.Report()
+			if err != nil{
+				log.Fatal(err)
+			}
+			allDir[domain] = jsondata
+		}()
+		context.String(200, "start to dir brute, please wait")
 	}
-	context.String(200, json)
 }
 
 func BasicScan(context *gin.Context){
@@ -84,6 +97,22 @@ func BasicScan(context *gin.Context){
 		log.Fatal(err)
 	}
 	context.String(200, jsondata)
+}
+
+func DumpData(context *gin.Context){
+	bruteDomain,_ := subDomainScanner.Report()
+	vtDomain, _ := vtScanner.Report()
+	rapidDomain, _ := rapidDnsScanner.Report()
+	basicInfo, _ := basicScanner.Report()
+	resultPath := fmt.Sprintf("result/%s", vtScanner.Domain)
+	if _, err := os.Stat(resultPath); err != nil {
+		os.Mkdir(resultPath, 0755)
+	}
+	ioutil.WriteFile(resultPath + "/brute.json", []byte(bruteDomain), 0755)
+	ioutil.WriteFile(resultPath + "/vt.json", []byte(vtDomain), 0755)
+	ioutil.WriteFile(resultPath + "/rapid.json", []byte(rapidDomain), 0755)
+	ioutil.WriteFile(resultPath + "/basic.json", []byte(basicInfo), 0755)
+	context.String(200, "success")
 }
 
 
@@ -120,22 +149,23 @@ func Start(context *gin.Context){
 		wg.Wait()
 		collectDomain()
 		/*
-		因为网络带宽和性能平静瓶颈，暂时不开启端口扫描
+		因为网络带宽和性能瓶颈，暂时不开启端口扫描
 		 */
 
-		//go func() {
-		//	iplist := make(map[string]bool)
-		//	for _, ipaddress := range allDomain{
-		//		if ipaddress != ""{
-		//			iplist[ipaddress] = true
-		//		}
-		//	}
-		//
-		//	for ip := range iplist{
-		//		portScanner.Set(ip)
-		//	}
-		//	portScanner.DoGather()
-		//}()
+		go func() {
+			iplist := make(map[string]bool)
+			for _, ipaddress := range allDomain{
+				matched, _ := regexp.MatchString("((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})(\\.((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})){3}", ipaddress)
+				if ipaddress != "" && matched{
+					iplist[ipaddress] = true
+				}
+			}
+
+			for ip := range iplist{
+				portScanner.Set(ip)
+			}
+			portScanner.DoGather()
+		}()
 
 		go func() {
 			for subdomain, ipaddress := range allDomain{

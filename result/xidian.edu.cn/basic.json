@@ -1,0 +1,3172 @@
+[
+  {
+    "HostName": "nkb.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "apis.xidian.edu.cn",
+    "Ip": "202.117.121.13",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kgb.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffdҴ\ufffdѧ\ufffdƼ\ufffd԰\ufffd\ufffd\ufffd\ufffd\ufffd칫\ufffd\ufffd",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "content.ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dxyqsb.xidian.edu.cn",
+    "Ip": "202.117.121.235",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "山景大型仪器设备共享管理平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "80.xidian.edu.cn",
+    "Ip": "202.117.112.31",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smeyz.xidian.edu.cn",
+    "Ip": "202.117.124.49",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sjjc.xidian.edu.cn",
+    "Ip": "202.117.115.94",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zcps.xidian.edu.cn",
+    "Ip": "61.150.43.73",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "isnskl.xidian.edu.cn",
+    "Ip": "202.117.124.53",
+    "WebServer": "nginx",
+    "Title": "Services of ISN SKL",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sme.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学微电子学院",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cxcyxt.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd\ufffd´\ufffdҵѵ\ufffd\ufffd\ufffd\ufffd\ufffdܹ\ufffd\ufffd\ufffdϵͳ",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jcjy.xidian.edu.cn",
+    "Ip": "202.117.124.17",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jjc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdfztb.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ieee.xidian.edu.cn",
+    "Ip": "202.117.120.230",
+    "WebServer": "nginx",
+    "Title": "首页 - IEEEOJ",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xyy.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdjszx.xidian.edu.cn",
+    "Ip": "202.117.124.67",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "qd.xidian.edu.cn",
+    "Ip": "202.117.121.17",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xk.xidian.edu.cn",
+    "Ip": "61.150.43.73",
+    "WebServer": "",
+    "Title": "Home redirecting...",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ekdx.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "oice.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "al.lib.xidian.edu.cn",
+    "Ip": "202.117.122.31",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "faculty.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VAppServer/6.0.0",
+    "Title": "",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dzzw.xidian.edu.cn",
+    "Ip": "202.117.120.114",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdƽ̨",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "noa.xidian.edu.cn",
+    "Ip": "202.117.121.230",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "res.xidian.edu.cn",
+    "Ip": "61.150.43.100",
+    "WebServer": "openresty",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xxgk.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdjxj.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "pop3.xidian.edu.cn",
+    "Ip": "202.117.112.58",
+    "WebServer": "nginx/1.10.1",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "client.ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jgdw.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "wlsy.xidian.edu.cn",
+    "Ip": "202.117.120.6",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdet.xidian.edu.cn",
+    "Ip": "202.117.124.17",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "journal.xidian.edu.cn",
+    "Ip": "202.117.124.36",
+    "WebServer": "nginx",
+    "Title": "",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jsj.xidian.edu.cn",
+    "Ip": "202.117.124.97",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jyk.xidian.edu.cn",
+    "Ip": "202.117.120.22",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxjyzy.xidian.edu.cn",
+    "Ip": "61.150.43.75",
+    "WebServer": "nginx/1.10.3",
+    "Title": "Welcome to nginx!",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sg.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdxnfzsyzx.xidian.edu.cn",
+    "Ip": "202.117.124.124",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sc.xidian.edu.cn",
+    "Ip": "202.117.124.63",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ltb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gis.xidian.edu.cn",
+    "Ip": "202.117.121.203",
+    "WebServer": "nginx/1.10.2",
+    "Title": "校园地图服务系统",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "nuedc.xidian.edu.cn",
+    "Ip": "202.117.124.98",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "全国大学生电子设计竞赛-陕西赛区官方网站",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "nss.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "learning.xidian.edu.cn",
+    "Ip": "learning.xidian.edu.cn.e.ngaacdn.cn",
+    "WebServer": "JSP3/2.0.14",
+    "Title": "西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "index.xidian.edu.cn",
+    "Ip": "202.117.115.65",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "imap.mail.xidian.edu.cn",
+    "Ip": "202.117.112.58",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "bcn.xidian.edu.cn",
+    "Ip": "202.117.124.95",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "onestop.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "bwc.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "1000.xidian.edu.cn",
+    "Ip": "202.117.124.63",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "swyx.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xwfw.xidian.edu.cn",
+    "Ip": "202.117.121.11",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dzbp.xidian.edu.cn",
+    "Ip": "202.117.115.75",
+    "WebServer": "nginx",
+    "Title": "502 Bad Gateway",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": true,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ce.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mis.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "Microsoft-HTTPAPI/2.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "amt.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学天线与微波技术重点实验室（天线所）",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "yz.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jpkc.xidian.edu.cn",
+    "Ip": "202.117.124.17",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "精品课程网首页",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zxjd.xidian.edu.cn",
+    "Ip": "202.117.124.94",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "pan.xidian.edu.cn",
+    "Ip": "10.255.53.25",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxcg.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "西安电子科技大学国家级教学成果申报",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xxcapp.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "openresty",
+    "Title": "登录",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sast.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学空间科学与技术学院",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "antl.xidian.edu.cn",
+    "Ip": "202.117.124.100",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "payment.xidian.edu.cn",
+    "Ip": "61.150.43.87",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "eesd.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VAppServer/6.0.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dag.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jieneng.xidian.edu.cn",
+    "Ip": "202.117.124.7",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cdemc.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "超高速电路设计与电磁兼容教育部重点实验室",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "icdm.xidian.edu.cn",
+    "Ip": "202.117.124.98",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "集成电路设计与制造虚拟仿真实验教学中心 - 西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "iot.xidian.edu.cn",
+    "Ip": "202.117.120.52",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zcgs.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Apache/2.4.6 (CentOS) mod_auth_gssapi/1.5.1 mod_auth_kerb/5.4 mod_nss/1.0.14 NSS/3.28.4 PHP/7.0.33 mod_wsgi/3.4 Python/2.7.5",
+    "Title": "西安电子科技大学资产经营有限公司",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "en.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "XIDIAN UNIVERSITY",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "123.xidian.edu.cn",
+    "Ip": "202.117.124.135",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tdhgdz.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zhxy.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "paper.xidian.edu.cn",
+    "Ip": "202.117.120.150",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cwcslpt.xidian.edu.cn",
+    "Ip": "202.117.115.89",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "西安电子科技大学商旅服务平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "codarr111.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "Microsoft-HTTPAPI/2.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "parking.xidian.edu.cn",
+    "Ip": "202.117.121.237",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "notice.xidian.edu.cn",
+    "Ip": "202.117.112.67",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "esop.xidian.edu.cn",
+    "Ip": "202.117.112.69",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xiezuo.xidian.edu.cn",
+    "Ip": "202.117.124.73",
+    "WebServer": "nginx/1.4.7",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xttp.xidian.edu.cn",
+    "Ip": "202.117.123.2",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "bksy.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "720vr.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Apache/2.4.26 (Unix) PHP/5.6.30",
+    "Title": "西电720全景-西电720vr",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ns1.xidian.edu.cn",
+    "Ip": "202.117.112.3",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "vote.xidian.edu.cn",
+    "Ip": "202.117.124.149",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "isn.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sai.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdfz.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VAppServer/6.0.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "acm.xidian.edu.cn",
+    "Ip": "202.117.120.247",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tyb.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ecard.xidian.edu.cn",
+    "Ip": "10.168.55.60",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zhjs.xidian.edu.cn",
+    "Ip": "202.117.115.76",
+    "WebServer": "nginx/1.7.5",
+    "Title": "云平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xcb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hrapp.xidian.edu.cn",
+    "Ip": "202.117.112.69",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "shx.gra.lab.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "amn.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "先进材料与纳米科技学院",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "www.lib.xidian.edu.cn",
+    "Ip": "202.117.124.133",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "西电图书馆",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jkcx.xidian.edu.cn",
+    "Ip": "202.117.124.3",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "video.xidian.edu.cn",
+    "Ip": "10.168.200.1",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jhyy.xidian.edu.cn",
+    "Ip": "202.117.124.113",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ids.xidian.edu.cn",
+    "Ip": "61.150.43.100",
+    "WebServer": "openresty",
+    "Title": "Welcome to nginx!",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "guoxue.xidian.edu.cn",
+    "Ip": "202.117.120.150",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smp.xidian.edu.cn",
+    "Ip": "202.117.112.68",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tjxt.xidian.edu.cn",
+    "Ip": "202.117.124.19",
+    "WebServer": "",
+    "Title": "西电学生体检系统",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tzb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "evaluation.xidian.edu.cn",
+    "Ip": "202.117.115.78",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "emen.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxdz.xidian.edu.cn",
+    "Ip": "202.117.124.137",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "stuscesapi.xidian.edu.cn",
+    "Ip": "202.117.115.21",
+    "WebServer": "nginx/1.15.7",
+    "Title": "西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rsbbs.xidian.edu.cn",
+    "Ip": "202.117.119.4",
+    "WebServer": "Tengine",
+    "Title": "导读-最新热门 -  西电睿思BBS -  手机版 - Powered by Discuz!",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ysjy.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xt.xidian.edu.cn",
+    "Ip": "202.117.123.1",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hei.xidian.edu.cn",
+    "Ip": "202.117.119.4",
+    "WebServer": "Tengine",
+    "Title": "401 Authorization Required",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdyx.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zzb.xidian.edu.cn",
+    "Ip": "202.117.124.47",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "liuxue.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ehall.xidian.edu.cn",
+    "Ip": "61.150.43.100",
+    "WebServer": "openresty",
+    "Title": "",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jwxt.xidian.edu.cn",
+    "Ip": "202.117.112.64",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jsfz.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ctf.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "eme.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "easybuy.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Apache",
+    "Title": "竞采星、竞价网、竞价采购",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xl.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "imp.xidian.edu.cn",
+    "Ip": "202.117.112.69",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xxb.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "itp.xidian.edu.cn",
+    "Ip": "202.117.124.121",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jyk1.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "info.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rspserver.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kycg.xidian.edu.cn",
+    "Ip": "202.117.124.17",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "西安电子科技大学国家级教学成果申报",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kdx.xidian.edu.cn",
+    "Ip": "202.117.124.56",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd϶\ufffd뵼\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdص\ufffdʵ\ufffd\ufffd\ufffd\ufffd,\ufffd\ufffdվ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd֧\ufffd֣\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ims.xidian.edu.cn",
+    "Ip": "202.117.124.176",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "marx.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "datamonitor.xidian.edu.cn",
+    "Ip": "202.117.121.5",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "primo.lib.xidian.edu.cn",
+    "Ip": "202.117.122.29",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cse.xidian.edu.cn",
+    "Ip": "202.117.120.16",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ecs.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学电子信息攻防对抗与仿真技术教育部重点实验室",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mec.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rowingorder.xidian.edu.cn",
+    "Ip": "202.117.124.120",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "labxcx.xidian.edu.cn",
+    "Ip": "202.117.121.110",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "stucli.xidian.edu.cn",
+    "Ip": "202.117.115.21",
+    "WebServer": "nginx/1.15.7",
+    "Title": "西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jsfzgl.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sjc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hqc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sys.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zbx.ee.xidian.edu.cn",
+    "Ip": "202.117.120.242",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rczp.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "bbs.xidian.edu.cn",
+    "Ip": "202.117.120.150",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "call-number.xidian.edu.cn",
+    "Ip": "202.117.121.19",
+    "WebServer": "openresty",
+    "Title": "为我点赞",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ee.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "Microsoft-HTTPAPI/2.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "c1.xidian.edu.cn",
+    "Ip": "202.117.120.245",
+    "WebServer": "",
+    "Title": "Apache Tomcat/8.5.54",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "webapi.xidian.edu.cn",
+    "Ip": "202.117.120.238",
+    "WebServer": "nginx/1.12.2",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "my.xidian.edu.cn",
+    "Ip": "202.117.121.160",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxjy.xidian.edu.cn",
+    "Ip": "61.150.43.75",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mobile.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "iecad.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xgc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "c2.xidian.edu.cn",
+    "Ip": "202.117.120.245",
+    "WebServer": "",
+    "Title": "Apache Tomcat/8.5.54",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ml4cs2019.xidian.edu.cn",
+    "Ip": "202.117.124.27",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "etc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "vpn.xidian.edu.cn",
+    "Ip": "61.150.43.81",
+    "WebServer": "Server",
+    "Title": "",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": true,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "stsy.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "数学与统计实验中心",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tybjxgl.xidian.edu.cn",
+    "Ip": "202.117.124.178",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "data.xidian.edu.cn",
+    "Ip": "202.117.121.215",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "教育质量监测数据平台",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "lab.xidian.edu.cn",
+    "Ip": "202.117.121.110",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "tw.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smg.xidian.edu.cn",
+    "Ip": "202.117.112.58",
+    "WebServer": "nginx/1.10.1",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ttc.xidian.edu.cn",
+    "Ip": "202.117.124.18",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "pay.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hpc.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "python.xidian.edu.cn",
+    "Ip": "202.117.120.230",
+    "WebServer": "nginx",
+    "Title": "Python OJ",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdhpc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ictt.xidian.edu.cn",
+    "Ip": "222.25.173.8",
+    "WebServer": "Apache/2.2.8 (Win32) PHP/6.0.0-dev",
+    "Title": "计算理论与技术研究所",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "red.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "红色文化与价值引领主题教育网站",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "b.xidian.edu.cn",
+    "Ip": "202.117.120.245",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "linux.xidian.edu.cn",
+    "Ip": "202.117.120.246",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sfl.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mba.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cgb.xidian.edu.cn",
+    "Ip": "202.117.121.131",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jshd.xidian.edu.cn",
+    "Ip": "202.117.115.76",
+    "WebServer": "nginx/1.7.5",
+    "Title": "云平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "a.xidian.edu.cn",
+    "Ip": "202.117.120.245",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zfw.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Apache/2.4.12 (Unix) OpenSSL/1.0.1g-fips PHP/5.5.23",
+    "Title": "登录",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "webmail.xidian.edu.cn",
+    "Ip": "61.150.43.95",
+    "WebServer": "nginx/1.10.1",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdxyy.xidian.edu.cn",
+    "Ip": "202.117.121.244",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "The resource cannot be found.",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "m.xidian.edu.cn",
+    "Ip": "202.117.121.72",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rjgc.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "meeting.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学学术信息网",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smtp.xidian.edu.cn",
+    "Ip": "202.117.112.58",
+    "WebServer": "nginx/1.10.1",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "wlbx.xidian.edu.cn",
+    "Ip": "202.117.124.221",
+    "WebServer": "Apache",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kwbs.xidian.edu.cn",
+    "Ip": "202.117.124.56",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd뵼\ufffd\ufffd\ufffd\ufffd\ufffdϽ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdص\ufffdʵ\ufffd\ufffd\ufffd\ufffd,\ufffd\ufffdվ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd֧\ufffd֣\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dzb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jwh.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "wzb.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "oa.xidian.edu.cn",
+    "Ip": "202.117.115.138",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hpc.ee.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd\ufffdܼ\ufffd\ufffd\ufffdʵ\ufffd\ufffd\ufffd\ufffd|XIDIAN HPC LAB",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zcgl.xidian.edu.cn",
+    "Ip": "202.117.121.146",
+    "WebServer": "nginx/1.5.12",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "pm.xidian.edu.cn",
+    "Ip": "202.117.124.183",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "waizhuan.xidian.edu.cn",
+    "Ip": "202.117.124.176",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "coremail.xidian.edu.cn",
+    "Ip": "202.117.112.56",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "wx.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "elive.xidian.edu.cn",
+    "Ip": "202.117.120.8",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "img.call-number.xidian.edu.cn",
+    "Ip": "202.117.121.19",
+    "WebServer": "openresty",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "imap.xidian.edu.cn",
+    "Ip": "202.117.112.58",
+    "WebServer": "nginx/1.10.1",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "life.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "aac.xidian.edu.cn",
+    "Ip": "202.117.124.99",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "iii.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "电子信息与通信工程专业实验教学中心",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dl.ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "schapi.xidian.edu.cn",
+    "Ip": "202.117.115.21",
+    "WebServer": "nginx/1.15.7",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hyxt.xidian.edu.cn",
+    "Ip": "202.117.121.236",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ie.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "msscstc.xidian.edu.cn",
+    "Ip": "202.117.124.163",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gh.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "api.ee.xidian.edu.cn",
+    "Ip": "202.117.120.238",
+    "WebServer": "nginx/1.12.2",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cwxt.xidian.edu.cn",
+    "Ip": "202.117.121.139",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "shumo.xidian.edu.cn",
+    "Ip": "202.117.124.77",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "高琳 | 个人信息 | 西安电子科技大学个人主页",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jsgzb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "yxcx.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "stuapi.xidian.edu.cn",
+    "Ip": "202.117.115.21",
+    "WebServer": "nginx/1.15.7",
+    "Title": "502 Bad Gateway",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "impnew.xidian.edu.cn",
+    "Ip": "202.117.121.160",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "oldhqc.xidian.edu.cn",
+    "Ip": "202.117.124.6",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxjyxx.xidian.edu.cn",
+    "Ip": "61.150.43.75",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "find.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西电失物招领",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "nibee.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rs.xidian.edu.cn",
+    "Ip": "202.117.119.1",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "manage.ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "em.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdѧԺ",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gzc.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cgz.xidian.edu.cn",
+    "Ip": "202.117.124.79",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dyxt.xidian.edu.cn",
+    "Ip": "202.117.120.233",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ste.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gcgl.xidian.edu.cn",
+    "Ip": "202.117.124.76",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "bioinformatics.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "newapi.xidian.edu.cn",
+    "Ip": "202.117.125.1",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gu.xidian.edu.cn",
+    "Ip": "202.117.124.42",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdwy.xidian.edu.cn",
+    "Ip": "61.150.43.75",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "des.xidian.edu.cn",
+    "Ip": "202.117.124.136",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ifhs.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "IFHS2019-西安电子科技大学华山青年学者国际论坛",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sjjx.xidian.edu.cn",
+    "Ip": "202.117.124.79",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ncs.xidian.edu.cn",
+    "Ip": "202.117.124.186",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "wyxt.xidian.edu.cn",
+    "Ip": "202.117.120.233",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "job.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Microsoft-IIS/8.5",
+    "Title": "西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dcdb.xidian.edu.cn",
+    "Ip": "202.117.115.6",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "resource.xidian.edu.cn",
+    "Ip": "202.117.119.2",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rwxy.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ns2.xidian.edu.cn",
+    "Ip": "61.150.43.66",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xdetxm.xidian.edu.cn",
+    "Ip": "202.117.124.199",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jwc.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "lab202.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "Microsoft-HTTPAPI/2.0",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dbsy.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "news.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "user.ms.xidian.edu.cn",
+    "Ip": "202.117.115.108",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "qzlx.xidian.edu.cn",
+    "Ip": "202.117.120.150",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rsc.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "西安电子科技大学人事处|西电人事处|人事人才信息网",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dp.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "image.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "12ddh.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "gr.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mail.xidian.edu.cn",
+    "Ip": "202.117.112.56",
+    "WebServer": "nginx/1.10.1",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "www.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smesy.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ela.xidian.edu.cn",
+    "Ip": "202.117.124.146",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ipic.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Apache/2.4.25 (Unix) OpenSSL/1.0.1e-fips PHP/5.6.30",
+    "Title": "西电图像传输与处理研究所",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sie.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "smg.stumail.xidian.edu.cn",
+    "Ip": "202.117.112.39",
+    "WebServer": "Apache",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dbcs.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "大学生实验实践能力达标测试",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kyzc.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "git.xidian.edu.cn",
+    "Ip": "202.117.120.244",
+    "WebServer": "nginx",
+    "Title": "Sign in | GitLab",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": true,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zsb.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "IIS",
+    "Title": "西安电子科技大学本科招生信息网",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "faculty-en3.xidian.edu.cn",
+    "Ip": "202.117.115.10",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xxc.xidian.edu.cn",
+    "Ip": "61.150.43.76",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "yjsxt.xidian.edu.cn",
+    "Ip": "202.117.112.65",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zzdy.xidian.edu.cn",
+    "Ip": "202.117.121.95",
+    "WebServer": "",
+    "Title": "文件信息真伪验证",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xidianhuaxue.xidian.edu.cn",
+    "Ip": "202.117.124.148",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cwc.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kplab.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "service.xidian.edu.cn",
+    "Ip": "202.117.121.76",
+    "WebServer": "openresty",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rsxj.xidian.edu.cn",
+    "Ip": "61.150.43.76",
+    "WebServer": "openresty",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "eelab.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学电工电子实验教学中心",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kxdd.xidian.edu.cn",
+    "Ip": "202.117.124.18",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cs.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "IIS",
+    "Title": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdӿƼ\ufffd\ufffd\ufffdѧ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdѧ\ufffd뼼\ufffd\ufffdѧԺ",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "parking_api.xidian.edu.cn",
+    "Ip": "202.117.121.237",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "im.xidian.edu.cn",
+    "Ip": "202.117.121.70",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "idsnew.xidian.edu.cn",
+    "Ip": "202.117.112.26",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "kaoyan.xidian.edu.cn",
+    "Ip": "202.117.120.233",
+    "WebServer": "",
+    "Title": "研究生入学考试信息系统",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "spoe.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "dxonline.xidian.edu.cn",
+    "Ip": "202.117.124.193",
+    "WebServer": "openresty",
+    "Title": "统一身份认证平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jwweixin.xidian.edu.cn",
+    "Ip": "202.117.124.128",
+    "WebServer": "nginx/1.10.2",
+    "Title": "西安电子科技大学移动教务平台",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "ord.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "lifelabinf.xidian.edu.cn",
+    "Ip": "202.117.124.116",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "rsp.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学雷达信号处理国家重点实验室_电子工程研究所_电子所",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "math.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "mssctf.xidian.edu.cn",
+    "Ip": "202.117.124.163",
+    "WebServer": "nginx",
+    "Title": "MSSCTF",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": true,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "stumail.xidian.edu.cn",
+    "Ip": "202.117.112.40",
+    "WebServer": "nginx/1.4.7",
+    "Title": "西安电子科技大学",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "see.xidian.edu.cn",
+    "Ip": "202.117.120.226",
+    "WebServer": "",
+    "Title": "西安电子科技大学电子工程学院",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "zc.xidian.edu.cn",
+    "Ip": "202.117.115.102",
+    "WebServer": "nginx/1.15.8",
+    "Title": "阳光校采西电网上直采平台",
+    "ClickJackingProtection": true,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": true,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jdh.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "web.xidian.edu.cn",
+    "Ip": "202.117.120.232",
+    "WebServer": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/5.5.38",
+    "Title": "西安电子科技大学个人主页系统 | 我的西电 我的主页|Xidian University Homepage",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "yjsbyj.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "西电研究生毕业季",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "imgservice.xidian.edu.cn",
+    "Ip": "202.117.121.76",
+    "WebServer": "openresty",
+    "Title": "403 Forbidden",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jw.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "Microsoft-IIS/7.5",
+    "Title": "西安电子科技大学纪检监察网",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "sten.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "estlab.xidian.edu.cn",
+    "Ip": "202.117.112.35",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxjygl.xidian.edu.cn",
+    "Ip": "61.150.43.75",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "qcall.xidian.edu.cn",
+    "Ip": "",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "cscy.xidian.edu.cn",
+    "Ip": "202.117.122.11",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "qindb.xidian.edu.cn",
+    "Ip": "202.117.124.140",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "xyzh.xidian.edu.cn",
+    "Ip": "61.150.43.92",
+    "WebServer": "",
+    "Title": "西安电子科技大学校友总会",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "lib.xidian.edu.cn",
+    "Ip": "202.117.124.133",
+    "WebServer": "Apache-Coyote/1.1",
+    "Title": "西电图书馆",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "biolab.xidian.edu.cn",
+    "Ip": "61.150.43.93",
+    "WebServer": "VWebServer",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "hf.xidian.edu.cn",
+    "Ip": "202.117.124.221",
+    "WebServer": "",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  },
+  {
+    "HostName": "jxjy01.xidian.edu.cn",
+    "Ip": "202.117.112.24",
+    "WebServer": "nginx",
+    "Title": "",
+    "ClickJackingProtection": false,
+    "ContentSecurityPolicy": false,
+    "XContentTypeOptions": false,
+    "StrictTransportSecurity": false
+  }
+]

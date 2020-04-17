@@ -1,0 +1,405 @@
+{
+  "Domain": "xidian.edu.cn",
+  "VtDomainSet": [
+    {
+      "IPAddress": "61.150.43.66",
+      "HostName": "ns2.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "ord.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.100",
+      "HostName": "ehall.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.163",
+      "HostName": "mssctf.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.100",
+      "HostName": "ids.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.150",
+      "HostName": "paper.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.24",
+      "HostName": "jxjy01.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "www.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.123.1",
+      "HostName": "xt.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "tdhgdz.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.246",
+      "HostName": "linux.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.53",
+      "HostName": "isnskl.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.73",
+      "HostName": "xk.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "learning.xidian.edu.cn.e.ngaacdn.cn",
+      "HostName": "learning.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "gr.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "oice.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.247",
+      "HostName": "acm.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.79",
+      "HostName": "sjjx.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "ste.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.121.72",
+      "HostName": "m.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.3",
+      "HostName": "ns1.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.58",
+      "HostName": "smg.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.232",
+      "HostName": "web.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "see.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.56",
+      "HostName": "mail.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.119.1",
+      "HostName": "rs.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "news.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.163",
+      "HostName": "msscstc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "rspserver.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "nibee.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "lab202.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "iecad.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "ecs.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "amt.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.81",
+      "HostName": "vpn.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.150",
+      "HostName": "bbs.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "xxcapp.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "info.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "job.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "meeting.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.119.2",
+      "HostName": "resource.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "cs.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.121.11",
+      "HostName": "xwfw.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "yz.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "jwc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.95",
+      "HostName": "webmail.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "ipic.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.6",
+      "HostName": "wlsy.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "rsc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.63",
+      "HostName": "sc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "life.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "faculty.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.36",
+      "HostName": "journal.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.16",
+      "HostName": "cse.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "wx.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.56",
+      "HostName": "kdx.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "sme.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "isn.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.64",
+      "HostName": "jwxt.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.238",
+      "HostName": "webapi.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "zsb.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.135",
+      "HostName": "123.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "rsp.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "eelab.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "nss.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.63",
+      "HostName": "1000.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.22",
+      "HostName": "jyk.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.123.2",
+      "HostName": "xttp.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.75",
+      "HostName": "jxjyxx.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "gzc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "mba.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "biolab.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "pay.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.186",
+      "HostName": "ncs.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "en.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "ctf.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "sg.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "10.255.53.25",
+      "HostName": "pan.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "qcall.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "smesy.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.75",
+      "HostName": "jxjygl.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "liuxue.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.75",
+      "HostName": "xdwy.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.39",
+      "HostName": "smg.stumail.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "eme.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "sfl.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "hpc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.75",
+      "HostName": "jxjy.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "",
+      "HostName": "bioinformatics.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "image.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.76",
+      "HostName": "xxc.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.121.230",
+      "HostName": "noa.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.120.226",
+      "HostName": "hpc.ee.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.112.40",
+      "HostName": "stumail.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.124.178",
+      "HostName": "tybjxgl.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "amn.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "202.117.121.95",
+      "HostName": "zzdy.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "tyb.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.92",
+      "HostName": "xcb.xidian.edu.cn"
+    },
+    {
+      "IPAddress": "61.150.43.93",
+      "HostName": "dbcs.xidian.edu.cn"
+    }
+  ]
+}

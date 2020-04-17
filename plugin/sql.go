@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type exploiter string
-func (e exploiter) Exploit(v ...interface{})(string, error){
+func (e exploiter) Exploit()(string, error){
 	target := v[0].(string)
 	fmt.Println("attack at " + target)
 	msg := "success"

@@ -54,8 +54,8 @@ func (r *rapidDnsScanner) Report()(string, error){
 
 func (r *rapidDnsScanner) extractDomain(rdhtml string){
 	regexpPattern, err := regexp.Compile(`<th scope="row ">\d*</th>
-<td><a href=".*" target="_blank">(.*)</a></td>
-<td><a href=".*" target="_blank" title=".*">(.*)</a>
+<td><a href=".*" Target="_blank">(.*)</a></td>
+<td><a href=".*" Target="_blank" title=".*">(.*)</a>
 </td>`)
 	if err != nil{
 		logger.Red.Println(err)

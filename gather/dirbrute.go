@@ -10,9 +10,9 @@ import (
 )
 
 type dirScanner struct {
-	target string
-	wordlist []string
-	dirs []dirDesc
+	Target      string
+	wordlist    []string
+	Dirs        []dirDesc
 	concurrency int
 }
 
@@ -33,20 +33,13 @@ func (d *dirScanner) Set(v ...interface{}){
 	dirType := v[1].(string)
 	dictName := fmt.Sprintf("dict/dir-%s.txt", dirType)
 	d.wordlist = util.ReadFile(dictName)
-	d.target = target
+	d.Target = target
 }
 
 func (d *dirScanner) Report() (string, error){
-	dirTarget := struct {
-		Target string
-		Dirs   []dirDesc
-	}{
-		Target: d.target,
-		Dirs: d.dirs,
-	}
-	jsondata, err := json.Marshal(dirTarget)
+	jsondata, err := json.Marshal(d)
 	if err != nil{
-		logger.Red.Fatal(err)
+		logger.Red.Println(err)
 		return "", err
 	}
 	return string(jsondata), nil
@@ -82,8 +75,7 @@ func (d *dirScanner) worker(tracker chan bool, dirnames chan string){
 
 func (d *dirScanner) fetch(dirname string){
 	if d.checkAlive(){
-		url := fmt.Sprintf("http://%s%s", d.target, dirname)
-		fmt.Println(url)
+		url := fmt.Sprintf("http://%s%s", d.Target, dirname)
 		resp, err := http.Get(url)
 		if err != nil{
 			logger.Red.Fatal(err)
@@ -94,7 +86,7 @@ func (d *dirScanner) fetch(dirname string){
 			body, _ := ioutil.ReadAll(resp.Body)
 			defer resp.Body.Close()
 			contentLength := len(body)
-			d.dirs = append(d.dirs, dirDesc{
+			d.Dirs = append(d.Dirs, dirDesc{
 				Url:           url,
 				StatusCode:    statusCode,
 				ContentLength: contentLength,
@@ -104,9 +96,9 @@ func (d *dirScanner) fetch(dirname string){
 }
 
 func (d *dirScanner) checkAlive() bool{
-	_, err := http.Get(fmt.Sprintf("http://%s/", d.target))
+	_, err := http.Get(fmt.Sprintf("http://%s/", d.Target))
 	if err != nil{
-		logger.Red.Fatalf("%s is not alive ", d.target)
+		logger.Red.Fatalf("%s is not alive ", d.Target)
 		return false
 	}
 	return true

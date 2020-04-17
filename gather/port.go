@@ -28,7 +28,7 @@ type Port struct {
 
 func NewPortScanner() *masScanner{
 	return &masScanner{
-		concurrency: 5,
+		concurrency: 2,
 		IpMap: make(map[string][]Port),
 	}
 }
