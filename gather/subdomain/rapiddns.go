@@ -1,12 +1,15 @@
-package gather
+package subdomain
 
 import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
 	"pentestplatform/logger"
+	"pentestplatform/util"
 	"regexp"
+	"strings"
 )
 
 type rapidDnsScanner struct {
@@ -26,20 +29,37 @@ func (r *rapidDnsScanner) Set(v ...interface{}){
 }
 
 func (r *rapidDnsScanner) DoGather(){
-	finalUrl := fmt.Sprintf(searchURL, r.Domain)
-	resp, err := http.Get(finalUrl)
-	if err != nil{
-		logger.Red.Println(err)
-		return
+	filename := r.Domain + ".csv"
+	_, err := os.Stat(filename)
+	if err == nil{
+		lines := util.ReadFile(filename)
+		for i, line := range lines{
+			if i == 0{
+				continue
+			}
+			domainArr := strings.Split(line, ",")
+			r.RapidDomainSet = append(r.RapidDomainSet, subDomain{
+				IPAddress: domainArr[2],
+				HostName:  domainArr[1],
+			})
+		}
+	}else{
+		finalUrl := fmt.Sprintf(searchURL, r.Domain)
+		resp, err := http.Get(finalUrl)
+		if err != nil{
+			logger.Red.Println(err)
+			return
+		}
+		bodyReader := resp.Body
+		bodyBytes, err := ioutil.ReadAll(bodyReader)
+		if err != nil{
+			logger.Red.Println(err)
+			return
+		}
+		bodyString := string(bodyBytes)
+		fmt.Println(bodyString)
+		r.extractDomain(bodyString)
 	}
-	bodyReader := resp.Body
-	bodyBytes, err := ioutil.ReadAll(bodyReader)
-	if err != nil{
-		logger.Red.Println(err)
-		return
-	}
-	bodyString := string(bodyBytes)
-	r.extractDomain(bodyString)
 	logger.Green.Println("rapiddns scan over")
 }
 

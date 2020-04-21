@@ -7,7 +7,10 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"pentestplatform/gather"
+	"pentestplatform/gather/basic"
+	"pentestplatform/gather/deleted"
+	"pentestplatform/gather/dir"
+	"pentestplatform/gather/subdomain"
 	"pentestplatform/logger"
 	"regexp"
 	"strings"
@@ -17,13 +20,14 @@ import (
 var siteInfo []string
 var allDomain = make(map[string]string)
 var allDir = make(map[string]string)
+var iplist = make(map[string]bool)
 
-var subDomainScanner = gather.NewSubDomainScanner()
-var portScanner = gather.NewPortScanner()
-var dirScanner = gather.NewDirScanner()
-var basicScanner = gather.NewBasicScanner()
-var vtScanner = gather.NewVtScanner()
-var rapidDnsScanner = gather.NewRapidDnsScanner()
+var subDomainScanner = subdomain.NewSubDomainScanner()
+var portScanner = deleted.NewPortScanner()
+var dirScanner = dir.NewDirScanner()
+var basicScanner = basic.NewBasicScanner()
+var vtScanner = subdomain.NewVtScanner()
+var rapidDnsScanner = subdomain.NewRapidDnsScanner()
 
 
 
@@ -91,6 +95,14 @@ func DirScan(context *gin.Context){
 	}
 }
 
+func GobyDump(context *gin.Context){
+	var ipSet []string
+	for ip := range iplist{
+		ipSet = append(ipSet, ip)
+	}
+	context.String(200, strings.Join(ipSet, "\n"))
+}
+
 func BasicScan(context *gin.Context){
 	jsondata, err := basicScanner.Report()
 	if err != nil{
@@ -153,18 +165,19 @@ func Start(context *gin.Context){
 		 */
 
 		go func() {
-			iplist := make(map[string]bool)
 			for _, ipaddress := range allDomain{
 				matched, _ := regexp.MatchString("((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})(\\.((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})){3}", ipaddress)
 				if ipaddress != "" && matched{
 					iplist[ipaddress] = true
 				}
 			}
-
-			for ip := range iplist{
-				portScanner.Set(ip)
-			}
-			portScanner.DoGather()
+			/*
+			端口扫描用goby
+			 */
+			//for ip := range iplist{
+			//	portScanner.Set(ip)
+			//}
+			//portScanner.DoGather()
 		}()
 
 		go func() {

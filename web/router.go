@@ -19,6 +19,7 @@ func SetRouter(engine *gin.Engine){
 		gather.GET("/rapiddns", controller.RapidDnsDomain)
 		gather.GET("/alldomain", controller.AllDomain)
 		gather.GET("/dump", controller.DumpData)
+		gather.GET("/goby", controller.GobyDump)
 	}
 
 	attack := engine.Group("/attack")

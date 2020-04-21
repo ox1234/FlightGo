@@ -1,4 +1,4 @@
-package gather
+package dir
 
 import (
 	"encoding/json"

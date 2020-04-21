@@ -1,15 +1,13 @@
-package gather
+package basic
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gosuri/uilive"
 	"io/ioutil"
 	"net/http"
 	"pentestplatform/logger"
 	"regexp"
 	"strings"
-	"time"
 )
 
 type basicInfo struct {
@@ -44,8 +42,6 @@ func (b *basicScanner) Set(v ...interface{}){
 }
 
 func (b *basicScanner) DoGather(){
-	writer := uilive.New()
-	writer.Start()
 	tracker := make(chan bool)
 	sites := make(chan *basicInfo)
 
@@ -54,13 +50,10 @@ func (b *basicScanner) DoGather(){
 	}
 
 	for i:=0; i<len(b.ScanList); i++{
-		fmt.Fprintf(writer, "基本信息获取进度：%d/%d\n", i, len(b.ScanList))
-		time.Sleep(time.Millisecond * 5)
 		sites <- &b.ScanList[i]
 	}
 
 	close(sites)
-	writer.Stop()
 	for i:=0; i<b.concurrency; i++{
 		<- tracker
 	}

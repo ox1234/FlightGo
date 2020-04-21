@@ -1,4 +1,4 @@
-package gather
+package subdomain
 
 import (
 	"encoding/json"

@@ -2,20 +2,12 @@ package main
 
 import (
 	"fmt"
+	"pentestplatform/gather/subdomain"
 )
 
-type test1 struct {
-	aaa []test2
-}
-
-type test2 struct {
-	Name string
-}
-
-func main(){
-	fmt.Println()
-	t1 := new(test1)
-	for _, t := range t1.aaa{
-		fmt.Println(t.Name)
-	}
+func main() {
+	subScanner := subdomain.NewSubDomainScanner()
+	subScanner.Set("xidian.edu.cn")
+	subScanner.DoGather()
+	fmt.Println(subScanner.Report())
 }

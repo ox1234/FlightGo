@@ -1,4 +1,4 @@
-package gather
+package deleted
 
 // 没钱，暂时不使用fofa
 
